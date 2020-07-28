@@ -2,5 +2,6 @@ module.exports = {
   devServer: {
     open: true
   },
-  productionSourceMap: false
+  productionSourceMap: false,
+  publicPath: '/dist'
 }
