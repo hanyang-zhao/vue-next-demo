@@ -3,5 +3,5 @@ module.exports = {
     open: true
   },
   productionSourceMap: false,
-  publicPath: '/vue-next-demo/dist'
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue-next-demo' : '/'
 }
