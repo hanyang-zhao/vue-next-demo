@@ -3,5 +3,5 @@ module.exports = {
     open: true
   },
   productionSourceMap: false,
-  publicPath: '/dist'
+  publicPath: '/vue-next-demo/dist'
 }
